@@ -22,7 +22,8 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: grey;
+    background-color: blue;
+    color: white;
 }
 
 #keys{
@@ -47,12 +48,19 @@ button{
 }
 
 button:hover{
-    background-color: rgb(63, 76, 76)
+    background-color: rgb(83, 96, 96)
 }
 button:active{
-    background-color: rgb(103, 116, 116);
+    background-color: rgb(123, 136, 136);
 }
 
-.left-btns{
-    background-color: orange;
+.ops{
+    background-color: rgb(231, 154, 12);
+}
+
+.ops:hover{
+    background-color: rgb(271, 194, 52);
+}
+.ops:active{
+    background-color:rgb(311, 294, 92);
 }
